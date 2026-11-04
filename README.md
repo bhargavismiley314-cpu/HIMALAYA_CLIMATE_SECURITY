@@ -1,11 +1,19 @@
-# HIMALAYA CLIMATE SECURITY
+# 🏔️ HIMALAYA CLIMATE SECURITY
 
-## Project Overview
+### AI-Powered Climate Security and Early Warning System
+
+## 📌 Project Overview
+
 Himalaya Climate Security is a Python-based
-system designed to detect and analyze
-environmental risks in Himalayan regions.
+system designed to detect, analyze, and assess
+environmental risks across the Himalayan region.
 
-## Key Features
+The project focuses on identifying potential
+natural hazards and supporting early warning
+and climate risk awareness.
+
+## 🎯 Key Features
+
 - Extreme Weather Risk Detection
 - Flood Risk Detection
 - Glacier Melting Risk Detection
@@ -13,30 +21,37 @@ environmental risks in Himalayan regions.
 - Landslide Risk Detection
 - Avalanche Risk Detection
 - Overall Risk Calculation
+- Data Validation
+- Automated Testing
 
-## Technologies Used
+## 🛠️ Technologies Used
+
 - Python
 - Pytest
-- Visual Studio Code
 - Git
+- GitHub
+- Visual Studio Code
 
-## Project Structure
-- backend/
-- climate_engine/
-- tests/
-- database/
-- documentation/
-- mobile_app/
-- website/
+## 📂 Project Structure
 
-## Testing
-Run all tests using:
-
-python -m pytest tests/ -v
-
-Current Test Results:
-34 Tests Passed
-
-## Project Status
-Core risk detection modules and
-automated tests completed.
+```text
+HIMALAYA_CLIMATE_SECURITY/
+│
+├── backend/
+│   ├── main.py
+│   └── climate_engine/
+│       ├── avalanche.py
+│       ├── data_collection.py
+│       ├── data_validation.py
+│       ├── extreme_weather.py
+│       ├── flood.py
+│       ├── glacier.py
+│       ├── glof.py
+│       ├── landslide.py
+│       └── risk_calculator.py
+│
+├── tests/
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
